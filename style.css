@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #0060AF;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    margin: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* 1 Beranda */
+#beranda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ffff;
+    height: 90vh;
+    min-height: calc(100vh- 80px);
+    padding-top: 80px;
+}
+
+.hero-content{
+    flex: 1;
+}
+
+.hero-content h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-content p{
+    font-size:1rem ;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.btn-pesan{
+    background-color: #0060AF;
+    color: white;
+    padding: 8px 16px;
+    text-align: none;
+    border-radius: 4px;
+    margin-right: 2px;
+}
+ 
+.btn-unduh{
+    background-color: transparent;
+    color: #0060AF;
+    padding: 6px 16px;
+    text-align: none;
+    border-radius: 4px;
+    border: 2px solid #0060AF;
+}
+
+.hero-image{
+    text-align: right;
+    flex: 1;
+}
+
+.hero-image img{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+/* 2tentang */
+#tentang{
+    padding: 40px;
+    background-color: #0060AF;
+    text-align: center;
+    height: 80vh;
+    min-height: calc(100vh- 80px);
+    padding-top: 80px;
+    justify-content: center;
+}
+.container h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #252422;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container p{
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 167.5%;
+    color: #403D39;
+    text-align: center;
+}
+
+
+#tentang2{
+    text-align: center;
+    padding: 80px 50px;
+    background-color: white;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    max-width: 300px;
+}
+
+.icon-circle{
+    width: 80px;
+    height: 80px;
+    background-color: #0060AF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.icon-circle img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#tentang2 h2{
+     font-weight: bold;
+     margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
