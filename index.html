@@ -1,94 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UFO_ELEKTRONIK</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-            <img src="image/logo@3x (1).webp" alt="">
-        </div>
-        <ul class="menu">
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#tentang">Tentang Kami</a></li>
-            <li><a href="https://maps.app.goo.gl/UBxg9az5RSmH2eo76" target="_blank">Menu</a></li>
-            <li><a href="Kontak.html">Hubungi Kami</a></li>
-        </ul>
+      <div class="logo">
+        <img src="image/logo@3x (1).webp" alt="" />
+      </div>
+      
+       <!-- tombol hamburger -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+
+      <ul class="menu" id="nav-menu">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#kontak">Hubungi Kami</a></li>
+      </ul>
     </nav>
-        <!-- Beranda -->
-    <section  id="beranda">
-        <div class="hero-content">
-            <h1>UFO — Satu Atap, Semua Kebutuhan Elektronik untukmu</h1>
-            <p>Temukan berbagai produk elektronik terbaik, mulai dari kulkas, mesin cuci, TV, hingga AC.  Belanja lebih mudah, harga lebih bersaing, dan kualitas terjamin hanya di UFO.</p>
-            <a href="pesansekarang" class="btn-pesan">Pesan  Sekarang</a>
-            <a href="unduhapk" class="btn-unduh">Unduh Aplikasi</a>
-        </div>
-        <div class="hero-image">
-            <img src="ceo ufooo/logo2.png" alt="gambar elektronikufo">
-        </div>
+    <!-- Beranda -->
+    <section id="beranda">
+      <div class="hero-content">
+        <h1>UFO — Satu Atap, Semua Kebutuhan Elektronik untukmu</h1>
+        <p>
+          Temukan berbagai produk elektronik terbaik, mulai dari kulkas, mesin
+          cuci, TV, hingga AC. Belanja lebih mudah, harga lebih bersaing, dan
+          kualitas terjamin hanya di UFO.
+        </p>
+        <a href="pesansekarang" class="btn-pesan">Pesan Sekarang</a>
+        <a href="unduhapk" class="btn-unduh">Unduh Aplikasi</a>
+      </div>
+      <div class="hero-image">
+        <img src="ceo ufooo/logo2.png" alt="gambar elektronikufo" />
+      </div>
     </section>
-        <!-- Tentang -->
-    <section id="tentang">
-        <div class="container">
-            <h2>Tentang Kami</h2>
-            <br>UFO adalah pusat elektronik terpercaya yang menyediakan produk berkualitas dari merek-merek ternama.</br> Kami hadir untuk memenuhi kebutuhan rumah dan bisnis Anda dengan pilihan lengkap, harga terbaik, dan layanan purna jual profesional.</p>
+    <!-- tentang -->
+    <section id="tentang" class="section-tentang">
+      <div class="wrap">
+        <h2>Tentang Kami</h2>
+        <p class="lead">
+          UFO adalah pusat elektronik terpercaya yang menyediakan produk
+          berkualitas dari merek-merek ternama. Kami hadir untuk memenuhi
+          kebutuhan rumah dan bisnis Anda dengan pilihan lengkap, harga terbaik,
+          dan layanan purna jual profesional.
+        </p>
+
+        <div class="cards">
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="icon">
+              <img src="image/1-removebg-preview.png" alt="Produk Lengkap" />
+            </div>
+            <h3>Produk Terlengkap</h3>
+            <p class="desc">
+              Dari elektronik rumah tangga hingga perangkat hiburan, semua
+              tersedia.
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="icon">
+              <img src="image/2-removebg-preview.png" alt="Hemat Waktu" />
+            </div>
+            <h3>Hemat Waktu</h3>
+            <p class="desc">
+              Belanja cepat dengan harga bersaing, tanpa perlu repot keliling
+              toko.
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="icon">
+              <img src="image/3.png" alt="Layanan Cepat" />
+            </div>
+            <h3>Aplikasi Layanan</h3>
+            <p class="desc">
+              Pesan online atau datang langsung, layanan ramah & responsif.
+            </p>
+          </article>
         </div>
+      </div>
     </section>
 
-    <section id="tentang2">
-        <h2>Apa saja Manfaat</h2>
-        <div class="container2">
-            <div class="card">
-                <div class="icon-circle"> 
-                    <img src="" alt="">
-                </div>
-                <h3>
-                    Produk Terlengkap <br>& Terpercaya
-                </h3>
-                <p>
-                    Dari elektronik rumah tangga hingga perangkat hiburan, semua tersedia.
-                </p>
-            </div>
-
-            <div class="card">
-                <div class="icon-circle"> 
-                    <img src="" alt="">
-                </div>
-                <h3>
-                   Hemat Waktu & Biaya
-                </h3>
-                <p>
-                   Belanja cepat dengan harga bersaing, tanpa perlu repot keliling toko.
-                </p>
-            </div>
-
-            <div class="card">
-                <div class="icon-circle"> 
-                    <img src="" alt="">
-                </div>
-                <h3>
-                     Aplikasi Layanan <br>Mudah & Cepat & Cepat
-                </h3>
-                <p>
-                   Pesan online atau langsung datang ke toko kami dengan pelayanan ramah.
-                </p>
-            </div>
-        </div>   
-    </section>
-        <!-- Menu -->
-    <section id="menu">
-        <h2>Menu Kami</h2>
-        <div class="menu-container">
-            <div class="menu-card">
-                <img src="" alt="">
-                <h3>Toshiba 32 Inch Digital LED TV HD Ready 32S25KP
-                </h3>
-                <p>Rp 1.698.000</p>
-            </div>
+    <!-- Menu -->
+    <section id="menu" class="section-menu">
+      <h2>MENU</h2>
+      <div class="menu-grid">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="image/1.webp" alt="TV Samsung" />
+          <p>Samsung 32 inch Smart LED TV HD Digital UA32T4500AKXXD</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
         </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="image/2.webp" alt="AC Sharp" />
+          <p>AC Sharp 1/2 PK Split Low Watt Series AH-A5SAY</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="image/3.webp" alt="Mesin Cuci Samsung" />
+          <p>Samsung Mesin Cuci 1 Tabung Eco Bubble Digital Inverter</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+          <img src="image/4.webp" alt="LG Kulkas" />
+          <p>LG Kulkas 2 Pintu 235 Liter GN-B215SQMT</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+          <img src="image/5.webp" alt="Samsung Crystal UHD" />
+          <p>Samsung 50 Inch Crystal UHD 4K Smart TV UA50AU8000XXD</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+          <img src="image/6.webp" alt="Oppo Reno4" />
+          <p>Oppo Kulkas Portable Mini Refrigerator 48 Liter</p>
+          <div class="price-rating">
+            <span class="price">Rp 1.988.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="card">
+          <img src="image/7.webp" alt="Polytron LED TV" />
+          <p>Polytron 32 Inch Digital TV PLD 32T7511</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.848.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="card">
+          <img src="image/8.webp" alt="Polytron LED TV Smart" />
+          <p>Polytron 43 Inch LED TV PLD 43TS155</p>
+          <div class="price-rating">
+            <span class="price">Rp 3.099.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="card">
+          <img src="image/9.webp" alt="Aqua Mesin Cuci" />
+          <p>Aqua Mesin Cuci Front Loading 7 Kg FQW750829QD</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="card">
+          <img src="image/10.webp" alt="Panasonic Mesin Cuci" />
+          <p>Panasonic Mesin Cuci 2 Tabung 14 Kg NA-W140B2Q</p>
+          <div class="price-rating">
+            <span class="price">Rp 2.098.000</span>
+            <span class="rating">⭐ 4.5</span>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+
+    <!-- kontak -->
+    <section id="kontak" class="section-kontak">
+      <h2>Kontak</h2>
+      <div class="kontak-container">
+        <!-- Map -->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15849.16849320221!2d121.6596298!3d-8.8454349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad6e98c9b2187b%3A0x727fa7d6851124c0!2sMAN%20Negeri%20Ende!5e0!3m2!1sid!2sid!4v1692345678901"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <!-- Form -->
+        <div class="form">
+          <form>
+            <label for="nama">Nama Lengkap</label>
+            <input
+              type="text"
+              id="nama"
+              placeholder="Masukkan Nama Lengkap Anda"
+            />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Masukkan Email Anda" />
+
+            <label for="pesan">Pesan</label>
+            <textarea
+              id="pesan"
+              rows="4"
+              placeholder="Tuliskan Pesan Anda"
+            ></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-container">
+    <!-- Kolom 1 -->
+    <div class="footer-column">
+      <h3>Ufo Elektronik</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <!-- Kolom 2 -->
+    <div class="footer-column">
+      <h3>Dukungan</h3>
+      <ul>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">Bantuan & Dukungan</a></li>
+        <li><a href="#">Kebijakan Pengembalian</a></li>
+        <li><a href="#">Syarat Penggunaan</a></li>
+        <li><a href="#">Lihat Panduan</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom 3 -->
+    <div class="footer-column">
+      <h3>Lihat Panduan</h3>
+      <ul>
+        <li><a href="#">Fitur</a></li>
+        <li><a href="#">Karier</a></li>
+        <li><a href="#">Artikel</a></li>
+        <li><a href="#">Cabang kami</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom 4 -->
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p><i class="bx bx-phone"></i> Yogyakarta</p>
+      <p><i class="fa fa-phone-alt"></i> 0856-7347-8876</p>
+      <p><i class="fa fa-envelope"></i> ufo@gmail.com</p>
+    </div>
+  </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 UFO Electronics. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
